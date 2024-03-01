@@ -4,8 +4,7 @@ const { Sequelize } = require('sequelize');
 const sequelize = new Sequelize('hoidanit', 'root', null, {
     host: 'localhost',
     dialect: 'mysql',
-    logging: false,
-    port: process.env.XAMPP_PORT || 3306
+    logging: false
 });
 
 let connectDB = async () => {
