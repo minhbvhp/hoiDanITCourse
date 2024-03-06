@@ -9,3 +9,5 @@ Setup project dependencies:
 - npm install --save mysql2@2.2.5
 
 - npm install --save bcryptjs@2.4.3
+
+- npm install --save cors@2.8.5
